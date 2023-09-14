@@ -9,6 +9,11 @@ Given pattern like -> for n = 3
                       6 7
 */
 #include <bits/stdc++.h> 
+#include <vector>
+
+#include<iostream>
+using namespace std;
+
 vector<vector<int>>printPattern(int n)
 {
 	vector<vector<int>>v ;
@@ -37,4 +42,9 @@ vector<vector<int>>printPattern(int n)
 	}
 
 	return v;
+}
+int main()
+{
+    
+    return 0;
 }
