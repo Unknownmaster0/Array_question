@@ -2,6 +2,8 @@
 #include <vector>
 using namespace std;
 
+/*question link -> https://practice.geeksforgeeks.org/problems/boolean-matrix-problem-1587115620/1*/
+
 void print(vector<vector<int>> arr)
 {
     for (int i = 0; i < arr.size(); i++)
